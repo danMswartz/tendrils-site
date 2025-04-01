@@ -75,6 +75,7 @@
   }
 ctx.fillStyle = 'lime';
 ctx.fillRect(50, 50, 200, 100);
+console.log("loop is running");
 
   loop();
 })();
