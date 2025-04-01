@@ -8,6 +8,7 @@
   canvas.style.pointerEvents = 'none';
 
   const ctx = canvas.getContext('2d');
+  console.log("CTX is:", ctx);
   let width = canvas.width = window.innerWidth;
   let height = canvas.height = window.innerHeight;
 
